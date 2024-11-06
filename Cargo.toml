@@ -18,7 +18,7 @@ features = ["full"]
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
-hyper.git = "https://github.com/Arcane-Secret/hyper.git"
+hyper = "1.4.0"
 futures-util = { version = "0.3.16", default-features = false }
 http = "1.0"
 http-body = "1.0.0"
