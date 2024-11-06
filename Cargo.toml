@@ -31,7 +31,7 @@ tokio = { version = "1", optional = true, default-features = false  }
 tower-service = { version = "0.3", optional = true }
 
 [dev-dependencies]
-hyper = { version = "1.4.0", features = ["full"] }
+hyper = { git = "https://github.com/Arcane-Secret/hyper.git", features = ["full"] }
 bytes = "1"
 http-body-util = "0.1.0"
 tokio = { version = "1", features = ["macros", "test-util", "signal"] }
